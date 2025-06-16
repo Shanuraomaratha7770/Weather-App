@@ -79,3 +79,22 @@ form input[type="submit"]:hover{
     align-items: center;
     flex: 1;
 }
+
+
+@media(max-width:600px){
+    body{
+        background-color: blue;
+    }
+    .container{
+        background-color: black;
+        color: white;
+
+    }
+    form input[type="submit"]{
+        font-size: small;
+        background-color: azure;
+        color: black;
+        
+    }
+}
+
